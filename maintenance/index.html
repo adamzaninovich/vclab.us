@@ -34,9 +34,21 @@
               <h2 class="text-3xl lg:text-4xl text-error">Service Down for Maintenance</h2>
             </div>
             <div class="mt-4 flex flex-1 justify-center space-x-2 lg:mt-12 lg:justify-start">
-              <a href="https://status.vclab.us/status" class="btn btn-error lg:btn-lg">
-                Check Status
+              <a href="https://vclab.us" class="btn btn-secondary lg:btn-lg">
+                VCLab Home
               </a>
+              <div class="dropdown dropdown-hover">
+                <label tabindex="0" class="mb-2 btn btn-accent lg:btn-lg lg:w-52">
+                  Check Status
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 -mr-2 h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </label>
+                <ul tabindex="0" class="menu dropdown-content lg:w-52 gap-2">
+                  <li><a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://status.azaninovich.com">External Services</a></li>
+                  <li><a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://status.vclab.us">Internal Services</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
